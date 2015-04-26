@@ -1,0 +1,36 @@
+---
+title: "Peruvian(national) Studies Prevalence of Cardiovascular Risk Factor"
+author: "Wilmer Fuentes Neira"
+date: "Sunday, April 26, 2015"
+
+output: slidy_presentation
+---
+
+##  Peruvian Study Prevalence of Cardiovascular Risk Factor 
+![drawing](logo.jpg)
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Factores de Riesgo Evaluados
+
+- Hipertension
+- Hipercolesterolemia
+- Diabetes
+- Tabaquismo
+- Sedentarismo
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
